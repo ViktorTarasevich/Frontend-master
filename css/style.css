@@ -43,19 +43,17 @@ header{
     font-size: 21px;
 }
 main{
-
-}
-.Say{
     display: flex;
     flex-direction: column;
     width: 100%;
+}
+main .Say{
     background: #eff0f2;
     text-align: center;
-    padding: 316px 0 388px 0;
+    padding: 206px 0 388px 0;
 }
-.Say h1{
+main .Say h1{
     text-transform: uppercase;
- /*   line-height: 27px;*/
     font-size: 45px;
 }
 .SHOPNO{
