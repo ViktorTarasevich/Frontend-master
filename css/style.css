@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+/*@media (max-width:1200px){
+    .container{
+        max-width: 970px;
+    }
+}
+@media (max-width:992px){
+     .container{
+         max-width: 750px;
+     }
+ }
+ @media (max-width:767px){
+     .container{
+         max-width: none;
+     }
+ }*/
+header{
+    width: 100%;
+    background: #eff0f2;
+    display: flex;
+}
+.shopno{
+    text-transform: uppercase;
+    font-size: 17px;
+    margin-top: 64px;
+    margin-left: 10.4%;
+    border: 4px solid black;
+    padding: 6px;
+    /*width: 1440px;
+    height: 805px;*/
+}
+.letter{
+    color: #77efe5;
+    font-size: 21px;
+}
+main{
+
+}
+.Say{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: #eff0f2;
+    text-align: center;
+    padding: 316px 0 388px 0;
+}
+.Say h1{
+    text-transform: uppercase;
+ /*   line-height: 27px;*/
+    font-size: 45px;
+}
+.SHOPNO{
+   /* color: #77efe5;*/
+}
+.Agency{
+   /* color: #77efe5;*/
+}
+/*1440
+805*/
+/* .shopno {
+height: 806px;
+!*width: 1440px;*!
+ top: 63px;
+ left: 150px;
+background: #fc0;
+ }
+ .shopno p {
+ border: 7px solid red;
+     width: 113px;
+     height: 46px;
+   !*  padding: 10px 10px 10px 10px;*!
+ }*/
+
+/*
+28*/
