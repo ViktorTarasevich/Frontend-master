@@ -5,10 +5,12 @@
 a{
     text-decoration: none;
 }
+
+
 body{
     font-family: 'Montserrat', sans-serif;
 }
-/*@media (max-width:1200px){
+@media (max-width:1200px){
     .container{
         max-width: 970px;
     }
@@ -22,61 +24,81 @@ body{
      .container{
          max-width: none;
      }
- }*/
+ }
+/*<header>
+ <div class="header_logo"> <p>sh<span class="letter">o</span>pno</p>
+                                                                </div>
+                                                                  </header>*/
 header{
-    width: 100%;
+   /* width: 100%;*/
+    /*width: 1170px;*/
     background: #eff0f2;
-    display: flex;
-}
-.shopno{
-    text-transform: uppercase;
-    font-size: 17px;
-    margin-top: 64px;
-    margin-left: 10.4%;
-    border: 4px solid black;
-    padding: 6px;
-    /*width: 1440px;
-    height: 805px;*/
+/*    display: flex;*/
+    padding: 64px 0;
 }
 .letter{
     color: #77efe5;
     font-size: 21px;
 }
+.header_logo {
+    width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 400;
+   /* margin-top: 64px;
+    margin-left: 10.4%;*/
+    border: 4px solid black;
+    padding-left: 10px;
+    padding-top: 6px;
+}
+.let{
+    margin: 0 auto;
+    display: flex;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 400;
+    /* margin-top: 64px;
+     margin-left: 10.4%;*/
+    border: 4px solid black;
+    padding-left: 10px;
+    padding-top: 6px;
+}
 main{
+    text-align: center;
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 1170px;
 }
-main .Say{
+main .main_welcome{
     background: #eff0f2;
     text-align: center;
     padding: 206px 0 388px 0;
 }
-main .Say h1{
+main .main_welcome h1 {
     text-transform: uppercase;
     font-size: 45px;
+    padding-top: 6px;
 }
-.SHOPNO{
-   /* color: #77efe5;*/
-}
-.Agency{
-   /* color: #77efe5;*/
-}
-/*1440
-805*/
-/* .shopno {
-height: 806px;
-!*width: 1440px;*!
- top: 63px;
- left: 150px;
-background: #fc0;
- }
- .shopno p {
- border: 7px solid red;
-     width: 113px;
-     height: 46px;
-   !*  padding: 10px 10px 10px 10px;*!
- }*/
+ .SHOPNO{
 
-/*
-28*/
+ }
+.lor h1{
+    text-align: center;
+    padding: 128px 0 0 0;
+}
+.lor p{
+    text-align: center;
+}
+.about_us{
+   /* text-align: center;*/
+    /*padding: 92px 125px 0 0;*/
+    width: 80%;
+    margin: 0 auto;
+    padding: 92px 125px 0 0;
+}
+.about_right{
+    text-align: center;
+    padding: 128px 0 0 0;
+}
